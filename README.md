@@ -3,7 +3,7 @@ Repository for collaboration on subissions in  the CH-315 course.
 
 ## Installation
 
-Install Conda, clone this repository, and open a terminal in the repository’s root directory.
+Clone this repository, and open a terminal in the repository’s root directory.
 
 ### 1. Create and activate the environment
 
@@ -12,16 +12,9 @@ conda create -n modeling-lab python=3.12 pip
 conda activate modeling-lab
 ```
 
-The environment name can differ between collaborators; the Python and package versions are what matter.
+The environment name can differ between collaborators but the Python and package versions are what matter!
 
 ### 2. Install dependencies
-
-```bash
-python -m pip install -r requirements.txt
-python -m pip check
-```
-
-If the repository includes `requirements-lock.txt`, install from that file **instead** to use the recorded package versions:
 
 ```bash
 python -m pip install -r requirements-lock.txt
