@@ -16,10 +16,14 @@ The environment name can differ between collaborators but the Python and package
 
 ### 2. Install dependencies
 
+`requirements.txt` lists the direct dependencies. Install the pinned versions from `requirements-lock.txt` so collaborators use the same package versions:
+
 ```bash
 python -m pip install -r requirements-lock.txt
 python -m pip check
 ```
+
+Run these commands again in the activated environment after pulling dependency changes.
 
 ### 3. Register the notebook kernel
 
