@@ -6,3 +6,4 @@ sympy
 ipykernel
 nbstripout
 nbdime
+pyiast
