@@ -5,6 +5,7 @@ scipy
 scikit-learn
 sympy
 ipykernel
+ipywidgets
 nbstripout
 nbdime
 pyiast
