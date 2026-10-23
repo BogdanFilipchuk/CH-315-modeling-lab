@@ -6,8 +6,6 @@ class RankInterpretation(LinearTransformationScene):
         super().__init__(show_coordinates=False, **kwargs)
 
     def apply_function(self, function, **kwargs):
-        # Scene.play also writes to self.moving_mobjects, so clear it here,
-        # otherwise the captions get transformed together with the plane
         self.moving_mobjects = []
         super().apply_function(function, **kwargs)
 
