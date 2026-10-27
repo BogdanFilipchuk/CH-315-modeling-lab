@@ -10,7 +10,8 @@ dependencies:
   - scikit-learn
   - scipy
   - numpy
-  - python
+  - python=3.11
+  - setuptools<82
   - py-xgboost
   - jupyterlab
   - nb_conda
